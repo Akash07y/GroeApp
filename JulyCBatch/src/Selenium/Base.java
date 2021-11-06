@@ -14,13 +14,6 @@ public static WebDriver openChromeBrowser() {
 		return driver;
 	}
 	
-	public static WebDriver openFirefoxBrowser() {
-		
-		System.setProperty("webdriver.gecko.driver", "F:\\Automation Class\\New folder\\New folder\\firefoxdriver.exe");
-		WebDriver driver = new FirefoxDriver();
-		driver.manage().window().maximize();
-		return driver;
-	}
 	
 	
 	

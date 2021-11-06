@@ -28,6 +28,8 @@ public class NewTest extends Base{
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			driver = openChromeBrowser();
+			
+			
 		}
 		
 		if(browser.equalsIgnoreCase("firefox"))
