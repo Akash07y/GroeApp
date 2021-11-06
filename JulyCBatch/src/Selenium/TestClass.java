@@ -35,8 +35,7 @@ public class TestClass {
 		driver.get("https://www.w3schools.com/html/html_tables.asp");
 		Thread.sleep(5000);
 		
-		String value = EX:
-			ele.sendKeys(value);
+	
 		
 		List<WebElement> cells = driver.findElements(By.xpath("//table[@id='customers']//tr"));
 		
