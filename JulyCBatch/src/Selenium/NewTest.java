@@ -25,18 +25,6 @@ public class NewTest extends Base{
 		
 		System.out.println(browser);
 		
-		if(browser.equalsIgnoreCase("chrome"))
-		{
-			driver = openChromeBrowser();
-			
-			
-		}
-		
-		if(browser.equalsIgnoreCase("firefox"))
-		{
-			driver = openFirefoxBrowser();
-		}
-		
 		if(browser.equalsIgnoreCase("ie"))
 		{
 			driver = openFirefoxBrowser();
